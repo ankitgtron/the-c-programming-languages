@@ -1,5 +1,5 @@
 # the-c-programming-languages
-It is a solution to the exercise of  K&R C second edition .
+It is a solution to the exercise's of ultimate c language book K&R C second edition .
 It is based on the modern c11 standard.
 All the program are tested on the debian 9 operating system.
 gcc version 6.3.0 20170516 (Debian 6.3.0-18).
