@@ -1,12 +1,20 @@
-// program to print the value of the EOF.
-// If you are using linux system enter ctrl + d in terminal for EOF.
-// If on windows system enter ctrl + z in terminal for EOF.
+
+/* This program prompts for input, and then captures a character
+ * from the keyboard. If EOF is signalled (typically through a
+ * control-D or control-Z character, though not necessarily),
+ * the program prints 0. Otherwise, it prints 1.
+ *
+ * If your input stream is buffered (and it probably is), then
+ * you will need to press the ENTER key before the program will
+ * respond.
+ */
+
 #include <stdio.h>
 
 int main(void)
 {
-  printf("The value of EOF is %d\n\n", EOF);
-  
+  printf("Press a key. ENTER would be nice :-\n\n");
+  printf("The expression getchar() != EOF evaluates to %d\n", getchar() != EOF);
   return 0;
 }
 
