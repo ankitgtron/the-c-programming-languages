@@ -1,7 +1,8 @@
 /*
  * Simply explained using the putchar() 
- * If you didn't like variable d, you can remove it. 
- * 
+ * variable d is used to keepp track of if the character is backslash, tabs, backspace
+ * If it is one of them then make d = 1
+ * else make d = 0 indicating normal character, need to just print.
  */
 
 #include <stdio.h>
