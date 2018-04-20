@@ -5,7 +5,10 @@
 * \b (backspace)
 * \" (double quote)
 * \\ (backslash) 
-* We have to tread carefully here, because using a non-specified escape sequence invokes undefined behaviour. The following program attempts to demonstrate all the legal escape sequences, not including the ones already shown (except \n , which I actually need in the program), and not including hexadecimal and octal escape sequences.
+* We have to read carefully here, because using a non-specified escape sequence invokes undefined behaviour. 
+* The following program attempts to demonstrate all the legal escape sequences,
+* not including the ones already shown (except \n , which I actually need in the program),
+* and not including hexadecimal and octal escape sequences.
 */
 #include <stdio.h>
 
